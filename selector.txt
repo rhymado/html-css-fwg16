@@ -1,0 +1,23 @@
+selector tunggal
+1. universal (*)
+2. elemen (h1)
+3. kelas (.class)
+4. id (#id)
+
+turunan selector tunggal
+1. pseudo class (selector:state)
+    div:hover
+2. pseudo elemen (selector::subelemen)
+    lorem::first-letter
+
+beberapa selector digabung menggunakan relasi
+1. " " (space) => parent & child generasi ke n
+    body header => header merupakan child generasi ke n dari body
+2. > (gt) => direct parent & child
+    body>header => header merupakan elemen child dari body
+3. + (plus) => sibling
+    img+#lorem => elemen dengan id lorem yang merupakan sibling dari elemen img
+
+attribute selector
+selector[attr=value]
+input[type="text"]
