@@ -59,7 +59,7 @@ header .half {
 }
 
 .hero .half:last-child {
-  align-items: center;
+  align-items: flex-end;
 }
 
 .hero .hero-content {
