@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-item {
+    @apply cursor-pointer select-none border-b-2 border-transparent hover:border-solid hover:border-b-2 hover:border-primary;
+  }
+}
